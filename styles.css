@@ -130,6 +130,38 @@ gap: 2rem;
     border-radius: 5rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+li {
+    display: flex;
+}
+
+ul li::after {
+    content: "";
+    display: block;
+    margin-left: 1rem;
+    width: 0.3rem;
+    height: 80%;
+    border-radius: 0.3rem;
+    background-color: var(--color-white);
+}
+
+li img {
+    width: 100%;
+}
+
+header li {
+    align-items: center;
+}
+
+li button {
+    display: flex;
+    align-items: center;
+}
+li div {
+    width: 4rem;
+    display: flex;
+}
+
 main {
     flex-direction: column;
     align-items: center;
