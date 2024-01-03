@@ -135,7 +135,7 @@ li {
     display: flex;
 }
 
-ul li::after {
+ul li:not(:last-child)::after {
     content: "";
     display: block;
     margin-left: 1rem;
